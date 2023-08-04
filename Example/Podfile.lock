@@ -1,0 +1,24 @@
+PODS:
+  - Cordova (7.0.0)
+  - ZWebKit (1.0.0):
+    - Cordova
+
+DEPENDENCIES:
+  - Cordova
+  - ZWebKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Cordova
+
+EXTERNAL SOURCES:
+  ZWebKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cordova: dc5bbace113e8a3b838fb8d0e10ea731f6032c67
+  ZWebKit: 7bed5abf358f355f26899325963cb76e3f2b9236
+
+PODFILE CHECKSUM: a83f1523e0c5149bfd0c7079f3877cb76aa3f169
+
+COCOAPODS: 1.12.1

@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import ZWebKit
 
-class ViewController: UIViewController {
+
+class ViewController: ZBaseWebViewController {
 
     override func viewDidLoad() {
+        self.startPage = "https://lzackx.com"
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

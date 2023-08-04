@@ -1,13 +1,12 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
+
+install! "cocoapods",
+         :preserve_pod_file_structure => true
 
 target 'ZWebKit_Example' do
   pod 'ZWebKit', :path => '../'
 
-  target 'ZWebKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod "Cordova"
 end
